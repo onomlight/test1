@@ -13,9 +13,19 @@ public class MemberJoinController implements SubController {
 		
 		//채우기
 		
+		try {
+			request.getRequestDispatcher("/WEB-INF/main.jsp").forward(request, response);
+		} catch (ServletException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
+	}
 		
 		
 		
 	}
-}
+

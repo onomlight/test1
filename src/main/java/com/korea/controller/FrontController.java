@@ -20,6 +20,7 @@ public class FrontController extends HttpServlet{
 	{
 		
 		//채우기
+		list.put("/MemberJoin.do", new MemberJoinController());
 		
 	}
 

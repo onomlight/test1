@@ -70,7 +70,6 @@ content
 
 <nav>
 <%@include file="/resources/module/nav.jsp" %>
-<%-- <jsp:include page="/resources/module/nav.jsp" /> --%>
 </nav>
 
 <content>
@@ -91,7 +90,7 @@ content
 </form>
 <hr>
 <div class=joinfind> 
-<a href="MemberJoin.jsp">무료회원가입</a> | <a href="#">아이디/비밀번호 찾기</a>
+<a href="/MemberJoin.do">무료회원가입</a> | <a href="#">아이디/비밀번호 찾기</a>
 </div>
 </div>
 

@@ -121,7 +121,7 @@
 
 
 <content>
-<form method="post" action=MemberJoin.do>  
+<form method="post" action="/MemberJoin.do">  
 <table border = 1 width=500px >
 <caption>
 회원기본정보<font size=2px color=gray>(*는 필수 입력 항목입니다)</font>
@@ -176,6 +176,7 @@
 <br>
 <div class="footer">
 <input type="submit" value=가입하기 id="fbtn1">
+<input type="hidden" name="flag"/>
 <button type="reset" id="fbtn2" >취소하기</button>
 </div>
 

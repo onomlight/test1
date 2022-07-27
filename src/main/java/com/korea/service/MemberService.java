@@ -1,8 +1,10 @@
 package com.korea.service;
 
 import com.korea.dao.MemberDAO;
+import com.korea.dto.MemberDTO;
 
 public class MemberService {
+	
 	private static MemberService service = new MemberService();
 	public MemberDAO dao = MemberDAO.getInstance();
 	
@@ -12,7 +14,11 @@ public class MemberService {
 		return service;
 	}
 
-	public void memberJoin(MemberDAO member) {
+	public boolean memberJoin(MemberDTO dto) {
+		
+		
+		return dao.memberJoin(dto);
 		//채우기
+		
 	}
 }

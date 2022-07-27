@@ -14,17 +14,6 @@ public class MemberDTO {
 	private String addr2;
 	
 	//Getter and Setter , toString()
-	
-	
-	
-	
-	
-	@Override
-	public String toString() {
-		return "MemberDTO [userid=" + userid + ", pwd=" + pwd + ", name=" + name + ", ph1=" + ph1 + ", ph2=" + ph2
-				+ ", ph3=" + ph3 + ", email=" + email + ", zipcode=" + zipcode + ", addr1=" + addr1 + ", addr2=" + addr2
-				+ "]";
-	}
 	public String getUserid() {
 		return userid;
 	}
@@ -85,7 +74,13 @@ public class MemberDTO {
 	public void setAddr2(String addr2) {
 		this.addr2 = addr2;
 	}
+	@Override
+	public String toString() {
+		return "MemberDTO [userid=" + userid + ", pwd=" + pwd + ", name=" + name + ", ph1=" + ph1 + ", ph2=" + ph2
+				+ ", ph3=" + ph3 + ", email=" + email + ", zipcode=" + zipcode + ", addr1=" + addr1 + ", addr2=" + addr2
+				+ "]";
+	}
 	
-	
+
 	
 }
